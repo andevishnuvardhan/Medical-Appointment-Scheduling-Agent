@@ -1,0 +1,115 @@
+{
+  "clinic_details": {
+    "name": "HealthCare Plus Clinic",
+    "address": "123 Medical Center Drive, Suite 200, New York, NY 10001",
+    "phone": "+1-555-123-4567",
+    "email": "info@healthcareplus.com",
+    "website": "www.healthcareplus.com",
+    "hours_of_operation": {
+      "monday": "8:00 AM - 6:00 PM",
+      "tuesday": "8:00 AM - 6:00 PM",
+      "wednesday": "8:00 AM - 6:00 PM",
+      "thursday": "8:00 AM - 6:00 PM",
+      "friday": "8:00 AM - 5:00 PM",
+      "saturday": "9:00 AM - 1:00 PM",
+      "sunday": "Closed"
+    },
+    "location_and_directions": "Located in the Medical District, accessible via Metro Line 2 (Medical Center Station). The building is at the corner of Medical Center Drive and Health Street.",
+    "parking_information": "Free parking available in the attached garage. Enter from Health Street. Validation available at the front desk. Street parking is also available with 2-hour limits."
+  },
+  "insurance_and_billing": {
+    "accepted_insurance": [
+      "Blue Cross Blue Shield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "Medicaid",
+      "Humana"
+    ],
+    "payment_methods": [
+      "Cash",
+      "Credit Cards (Visa, MasterCard, American Express)",
+      "Debit Cards",
+      "HSA/FSA Cards",
+      "Payment Plans Available"
+    ],
+    "billing_policies": "Payment is expected at the time of service. We will file insurance claims on your behalf. You are responsible for any co-pays, deductibles, or services not covered by your insurance. For patients without insurance, we offer a 20% self-pay discount when paid in full at the time of service."
+  },
+  "visit_preparation": {
+    "required_documents": [
+      "Photo ID (Driver's License or State ID)",
+      "Insurance Card (front and back)",
+      "List of current medications",
+      "Referral letter (if required by insurance)"
+    ],
+    "first_visit_procedures": "Please arrive 15 minutes early to complete new patient paperwork. You can also download forms from our website to fill out in advance. Bring all relevant medical records from previous providers if available.",
+    "what_to_bring": [
+      "Insurance information",
+      "List of allergies",
+      "Previous test results or imaging",
+      "List of questions for the doctor"
+    ]
+  },
+  "policies": {
+    "cancellation_policy": "We require at least 24 hours notice for cancellations or rescheduling. Late cancellations or no-shows may result in a $50 fee. We understand emergencies happen - please call us as soon as possible.",
+    "late_arrival_policy": "Please arrive 10 minutes before your scheduled appointment. If you arrive more than 15 minutes late, we may need to reschedule your appointment to avoid delays for other patients.",
+    "covid_19_protocols": "Masks are optional but welcome. Hand sanitizer stations are available throughout the clinic. We maintain enhanced cleaning protocols between patients. If you have COVID-19 symptoms, please call ahead so we can schedule a telehealth visit or take appropriate precautions."
+  },
+  "appointment_types": {
+    "general_consultation": {
+      "duration": 30,
+      "description": "Standard medical consultation for non-urgent health concerns, annual checkups, follow-up visits for chronic conditions, medication refills.",
+      "preparation": "Bring a list of current medications and any questions you have."
+    },
+    "follow_up": {
+      "duration": 15,
+      "description": "Brief follow-up visit to discuss test results, medication adjustments, or progress on treatment plans.",
+      "preparation": "Review any instructions from your previous visit."
+    },
+    "physical_exam": {
+      "duration": 45,
+      "description": "Comprehensive physical examination including vitals, health history review, preventive care screening, and health counseling.",
+      "preparation": "Fasting may be required if lab work is ordered. Wear comfortable clothing."
+    },
+    "specialist_consultation": {
+      "duration": 60,
+      "description": "In-depth consultation for complex medical conditions, second opinions, or specialized care requiring extended evaluation.",
+      "preparation": "Bring all relevant medical records, test results, and imaging studies."
+    }
+  },
+  "faqs": [
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "We operate primarily by appointment to ensure minimal wait times. However, we do accept walk-ins during business hours based on availability. Call ahead to check current wait times."
+    },
+    {
+      "question": "Can I request a specific doctor?",
+      "answer": "Yes, you can request a specific provider when booking your appointment. Please note this may affect availability."
+    },
+    {
+      "question": "Do you offer telehealth appointments?",
+      "answer": "Yes, we offer telehealth video visits for appropriate conditions. Ask about telehealth options when scheduling."
+    },
+    {
+      "question": "What if I need prescription refills?",
+      "answer": "For established patients, you can request prescription refills through our patient portal or by calling the office. Allow 48 hours for processing. Some medications may require an appointment."
+    },
+    {
+      "question": "Do you provide lab services on-site?",
+      "answer": "Yes, we have an on-site laboratory for blood work and basic tests. Results are typically available within 24-48 hours and will be discussed with you by phone or at a follow-up visit."
+    },
+    {
+      "question": "Is there an after-hours line for emergencies?",
+      "answer": "For medical emergencies, please call 911. For urgent medical questions after hours, call our main number where you'll be directed to our on-call physician service."
+    },
+    {
+      "question": "How do I get my medical records?",
+      "answer": "You can request medical records through our patient portal or by submitting a signed release form. There may be a small fee for copying services. Allow 5-7 business days for processing."
+    },
+    {
+      "question": "Do you treat children?",
+      "answer": "We provide care for patients ages 12 and older. For younger children, we can recommend excellent pediatric practices in the area."
+    }
+  ]
+}

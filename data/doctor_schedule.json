@@ -1,0 +1,72 @@
+{
+  "doctor_info": {
+    "name": "Dr. Sarah Johnson, MD",
+    "specialties": ["Family Medicine", "Internal Medicine"],
+    "timezone": "America/New_York"
+  },
+  "working_hours": {
+    "monday": {"start": "08:00", "end": "18:00"},
+    "tuesday": {"start": "08:00", "end": "18:00"},
+    "wednesday": {"start": "08:00", "end": "18:00"},
+    "thursday": {"start": "08:00", "end": "18:00"},
+    "friday": {"start": "08:00", "end": "17:00"},
+    "saturday": {"start": "09:00", "end": "13:00"},
+    "sunday": null
+  },
+  "lunch_break": {
+    "start": "12:00",
+    "end": "13:00"
+  },
+  "slot_duration_minutes": 15,
+  "buffer_time_minutes": 5,
+  "existing_appointments": [
+    {
+      "date": "2024-12-04",
+      "start_time": "09:00",
+      "end_time": "09:30",
+      "type": "general_consultation",
+      "patient_name": "John Smith",
+      "status": "confirmed"
+    },
+    {
+      "date": "2024-12-04",
+      "start_time": "10:00",
+      "end_time": "10:15",
+      "type": "follow_up",
+      "patient_name": "Mary Johnson",
+      "status": "confirmed"
+    },
+    {
+      "date": "2024-12-04",
+      "start_time": "14:00",
+      "end_time": "14:45",
+      "type": "physical_exam",
+      "patient_name": "Robert Davis",
+      "status": "confirmed"
+    },
+    {
+      "date": "2024-12-05",
+      "start_time": "09:00",
+      "end_time": "09:30",
+      "type": "general_consultation",
+      "patient_name": "Emily Wilson",
+      "status": "confirmed"
+    },
+    {
+      "date": "2024-12-05",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "type": "specialist_consultation",
+      "patient_name": "Michael Brown",
+      "status": "confirmed"
+    },
+    {
+      "date": "2024-12-06",
+      "start_time": "11:00",
+      "end_time": "11:30",
+      "type": "general_consultation",
+      "patient_name": "Lisa Anderson",
+      "status": "confirmed"
+    }
+  ]
+}
